@@ -1,0 +1,30 @@
+.postWrapper {
+  margin:0 auto;
+  display: grid;
+  width:300px;
+  
+  grid-template-areas:
+  "t t"
+  "br ba";
+
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 2fr 10fr;
+  grid-gap: 10px;
+}
+
+.textrrr {
+  grid-area: t;
+  background-color: orange;
+}
+
+.btna {
+  grid-area: ba;
+  background-color: orange;
+  margin:10;
+  width:100px;
+}
+
+.btnr {
+  grid-area: br;
+  background-color: lightgreen;
+}

@@ -1,0 +1,14 @@
+.header {
+  grid-area: h;
+  background-color: orange;
+}
+
+.header img {
+  height: 60px;
+  width: 65px;
+  opacity: 0.7;
+}
+
+.header img:hover {
+  opacity: 1.0;
+}
