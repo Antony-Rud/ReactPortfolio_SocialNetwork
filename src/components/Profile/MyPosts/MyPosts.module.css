@@ -20,7 +20,7 @@
 .btna {
   grid-area: ba;
   background-color: orange;
-  margin:10;
+  margin:10px;
   width:100px;
 }
 
