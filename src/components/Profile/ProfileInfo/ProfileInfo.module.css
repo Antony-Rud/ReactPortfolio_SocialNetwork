@@ -4,5 +4,10 @@
 }
 
 .content img {
-  width:1075px;
+  width:1055px;
+  padding: 10px;
+}
+
+.descriptionBlock {
+  padding:10px;
 }
